@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Love"
+        android:id="@+id/ic_star"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_star_outline_24"
+        ></item>
+
+    <item
+        android:title="Love"
+        android:id="@+id/ic_edit"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_edit_24"
+        ></item>
+
+    <item
+        app:showAsAction="never"
+        android:title="Delete"
+        android:id="@+id/action_delete" />
+</menu>
